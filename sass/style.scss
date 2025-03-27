@@ -28,6 +28,11 @@ $neutral-zero: hsl(200, 60%, 99%); //Neutral 0
     color: hsl(228, 45%, 44%); 
 }
 
+body {
+    height: 100dvh;
+    background-image: $dark-gradient;
+}
+
 .container {
     max-width: 1440px;
 }
