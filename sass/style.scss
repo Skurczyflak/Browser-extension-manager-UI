@@ -1,0 +1,37 @@
+//Variables
+
+$font-primary: "Noto Sans", sans-serif;
+$font-size-paragraph: 16px;
+$weights-one: 400;  //weights 400
+$weights-two: 500;  //weights 500
+$weights-three: 700;    //weights 700
+$light-gradient: linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%);
+$dark-gradient: linear-gradient(180deg, #040918 0%, #091540 100%);
+$color-red-one: hsl(3, 86%, 64%);   //red 400
+$color-red-two: hsl(3, 71%, 56%);   //red 500
+$color-red-three: hsl(3, 77%, 44%); //red 700
+
+$neutral-nine: hsl(227, 75%, 14%);   //Neutral 900
+$neutral-eight: hsl(226, 25%, 17%);   //Neutral 800
+$neutral-seven: hsl(225, 23%, 24%);   //Neutral 700
+$neutral-six: hsl(226, 11%, 37%);   //Neutral 600
+$neutral-three: hsl(0, 0%, 78%);  //Neutral 300
+$neutral-two: hsl(217, 61%, 90%);   //Neutral 200
+$neutral-one: hsl(0, 0%, 93%);  //Neutral 100
+$neutral-zero: hsl(200, 60%, 99%); //Neutral 0
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.container {
+    max-width: 1440px;
+}
+
+@media screen and (min-width: 375px) {
+
+  }
