@@ -109,3 +109,24 @@ document.querySelector('.buttons-filter').addEventListener('click', function(e){
         }
     }
 });
+
+let lightmode = localStorage.getItem('lightmode');
+const themeSwitch = document.getElementById('theme-switch');
+
+const enableLightmode = function() {
+    document.body.classList.add('lightmode');
+    localStorage.setItem('lightmode', 'active');
+}
+
+const disableLightmode = function() {
+    document.body.classList.remove('lightmode');
+    localStorage.setItem('lightmode', null);
+}
+
+if(lightmode === 'active') enableLightmode()
+
+ 
+themeSwitch.addEventListener('click', function() {
+    lightmode = localStorage.getItem('lightmode')
+    lightmode !== 'active' ? enableLightmode() : disableLightmode()
+});
